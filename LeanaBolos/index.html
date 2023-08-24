@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adas</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">
+          <img src="/img/logo.png" alt="">
+        </a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#produtos">Contato</a></li>
+          <li><a href="#">Produtos</a></li>
+        </ul>
+      </nav>
+    </header>
+   <main>
+     <!-- Carrossel-->
+     <div class="container-carrossel">
+      <button id="prev-button"></button>
+      <div class="container-images">
+          <a href="">
+            <img src="/img/slide01.jpeg" alt="Bolo" class="slider on">   
+          </a>
+          <a href="">
+            <img src="/img/slide02.jpeg" alt="Bolo" class="slider">   
+          </a>
+          <a href="">
+            <img src="/img/slide05.jpeg" alt="Bolo" class="slider">   
+            
+          </a>
+           <!-- #region
+          <a href="">
+            <img src="/img/slide0.jpeg" alt="girl" class="slider">   
+          </a>
+          <a href="">
+            <img src="/img/slide05.jpeg" alt="girl" class="slider">   
+          </a>
+          -->
+      </div>
+      <button id="next-button"></button>
+    </div>
+    <!-- Faixa de Produtos -->
+    <div class="faixa">
+      <div><img src="/img/prod01.jpeg" alt=""></div>
+      <div><img src="/img/prod02.jpeg" alt=""></div>
+      <div><img src="/img/prod03.jpeg" alt=""></div>
+      <div><img src="/img/prod04.jpeg" alt=""></div>
+      <div><img src="/img/prod05.jpeg" alt=""></div>
+    </div>
+    <!--  Contato -->
+    <div class="contato">
+      <h3 class="title">FAÇA JÁ O SEU PEDIDO</h3>
+      <h4>Entre em Contato</h4>
+    </div>
+      <div class="links">
+        <a href="">
+          <img src="/img/whatsApp.png" id="wha" onmouseover="mouseOver()" onmouseout="mouseOut()">
+        </a>
+        <a href="https://www.instagram.com/leana_bolos/?igshid=MzRlODBiNWFlZA%3D%3D">
+          <img src="/img/Instagram.png" id="ins" onmouseover="mouseover()" onmouseout="mouseout()">
+        </a>
+        <a href="https://www.facebook.com/leana.limadasilva?mibextid=ZbWKwL">
+          <img src="/img/facebook.png" id="face" onmouseover="mouse0ver()" onmouseout="mouse0ut()">
+        </a>
+      
+    </div>
+   </main>
+    <script src="/js/nav-bar.js"></script>
+    <script src="/js/carrossel.js"></script>
+    <script src="/js/mudar.js"></script>
+  </body>
+</html>
